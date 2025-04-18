@@ -4,6 +4,9 @@
       "eas": {
         "projectId": "abbab43c-cd25-4594-879c-b14dd917f066"
       }
+    },
+    "android": {
+      "package": "com.pathuz21.airesumeanalyzercom.pathuz21.airesumeanalyzer"
     }
   }
 }
