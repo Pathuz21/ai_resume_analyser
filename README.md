@@ -1,3 +1,9 @@
+Here’s a well-structured, modern, and stylish README.md for your AI Resume Analyser project. It includes badges, sections, usage instructions, and contribution guidelines — all designed to impress:
+
+⸻
+
+
+
 # 🧠 AI Resume Analyser
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -53,3 +59,108 @@
 ```bash
 git clone git@github.com:Pathuz21/ai_resume_analyser.git
 cd ai_resume_analyser
+
+2. Frontend Setup
+
+cd client
+npm install
+npm run dev
+
+3. Backend Setup
+
+cd server
+pip install -r requirements.txt
+python app.py
+
+
+
+⸻
+
+📂 Project Structure
+
+ai_resume_analyser/
+├── client/           # React frontend
+│   └── src/
+│       └── components/
+├── server/           # Flask backend
+│   ├── resume_parser.py
+│   └── app.py
+├── screenshots/      # App UI previews
+└── README.md
+
+
+
+⸻
+```
+🧪 API Endpoints
+
+Method	Endpoint	Description
+POST	/upload_resume	Upload and parse a resume
+POST	/analyze	Analyze resume with JD
+GET	/results	Fetch AI results
+
+
+
+⸻
+
+🙋‍♂️ How It Works
+	1.	User uploads a resume
+	2.	App parses content using NLP
+	3.	Job description is compared to resume
+	4.	Skill gaps and suggestions are generated
+	5.	Final score and tips shown to user
+
+⸻
+
+🧠 AI / NLP Behind The Scenes
+	•	Tokenization, Named Entity Recognition
+	•	Cosine similarity between JD & Resume
+	•	TF-IDF vectorization
+	•	Custom skill matcher with preloaded tech stacks
+
+⸻
+
+✅ To Do
+	•	Add authentication 🔐
+	•	Save user analysis history 💾
+	•	Resume formatting suggestions ✍️
+	•	Dark mode 🌙
+
+⸻
+
+🤝 Contributing
+
+Contributions are welcome! Here’s how to get started:
+	1.	Fork the repo
+	2.	Create your feature branch: git checkout -b my-feature
+	3.	Commit your changes: git commit -m 'Add awesome feature'
+	4.	Push to the branch: git push origin my-feature
+	5.	Open a pull request ✅
+
+⸻
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+⸻
+
+🌟 Show Your Support
+
+If you like this project, ⭐ star it on GitHub and share it with your peers!
+
+⸻
+
+📬 Contact
+
+Maintainer: Pathuz21
+📧 Email: yourname@example.com
+🔗 LinkedIn: linkedin.com/in/yourname
+
+⸻
+
+Built with ❤️ for students, recruiters, and developers who want smarter hiring tools.
+
+---
+
+Would you like me to create a `README.md` file and push it to your repo? Or do you want a simpler version?
