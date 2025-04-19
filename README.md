@@ -31,6 +31,7 @@ Here’s a well-structured, modern, and stylish README.md for your AI Resume Ana
 | Resume Upload | Resume Analysis |
 |---------------|------------------|
 | ![Upload](screenshots/upload.png) | ![Analysis](screenshots/analysis.png) |
+website link- https://pathuz21.github.io/ai_resume_analyser/
 
 ---
 
